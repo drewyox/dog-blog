@@ -1,5 +1,12 @@
+body {
+  background-image: url('https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+  color: white;
+  text-shadow: 2px 2px #000000;
+  font-family: 'Josefin Sans', sans-serif;
+}
 h1 {
   font-size: 100px;
+  text-align: center;
 }
 h3 {
   font-size: 55px;
@@ -13,13 +20,13 @@ h5 {
 .dog {
   width: 800px;
   height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0)
 }
 
 p,
 li {
   font-size: 25px;
-}
-
-* {
-  background-color: lightblue;
 }
