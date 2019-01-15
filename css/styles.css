@@ -74,3 +74,21 @@ a:hover {
   color: chartreuse;
   text-decoration: none;
 }
+
+.highlight{
+color:red;
+}
+
+.highlight-background {
+  color: yellow;
+  background-color: lightblue;
+  border: 2px solid black;
+}
+
+.highlight-normal {
+  color: green;
+  text-shadow: 2px 2px #000000;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 3px;
+
+}

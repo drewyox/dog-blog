@@ -12,4 +12,9 @@ $(document).ready(function() {
   $("button#normal").click(function() {
     $("body,h1,a").removeClass();
   });
+  $(".highlight").click(function() {
+    // $(".highlight").removeClass();
+    // $(".highlight").addClass(".highlight-background");
+    $(".highlight").addClass("highlight-background");
+  });
 });
