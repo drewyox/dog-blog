@@ -1,11 +1,10 @@
 body {
   background-image:
        url('https://downloops.com/wp-content/uploads/edd/2018/03/MosaicBlue-Flowing-Mosaic-Pattern-Free-Download-Motion-Background-Video-Loop-SampleStill.jpg');
-  color: white;
+  color: green;
   text-shadow: 2px 2px #000000;
   font-family: 'Josefin Sans', sans-serif;
   letter-spacing: 3px;
-
 }
 
 h1 {
@@ -15,9 +14,6 @@ h1 {
   font-family: 'Fira Sans', sans-serif;
   margin-top: -10px;
   padding: 100px 0;
-  /* color: rgba(255, 99, 71, 0.5); */
-/*
-  background-image: linear-gradient(to bottom, transparent, mistyrose); */
 }
 
 h3 {
@@ -30,6 +26,21 @@ h5 {
   margin: 25px 100px;
 }
 
+.light-background {
+  background-image: none;
+  background-color: white;
+  color: black;
+  text-shadow: none;
+}
+
+.dark-background {
+  background-image: none;
+  background-color: black;
+  color: white;
+  text-shadow: none;
+}
+
+
 .dog {
   width: 800px;
   height: auto;
@@ -39,6 +50,7 @@ h5 {
   margin-bottom: 100px;
   box-shadow: 0 10px 10px 0 rgba(0, 0, 0)
 }
+
 
 p,
 li {
